@@ -1,0 +1,33 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --grey: #d8d9db;
+  --grey-hover: #ebebeb;
+  --grey-active: #bbbcbe;
+  --orange: #df974c;
+  --orange-hover: #dfb07e;
+  --orange-active: #dd8d37;
+}
+
+.wrapper {
+  width: 400px;
+  background-color: #000000;
+}
+
+button {
+  border: none;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 24.5%;
+}
+
+.third-row {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5%;
+  justify-content: space-between;
+}
+
